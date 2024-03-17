@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #c0e5f5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(126, 164, 222);
+    border-radius: 10px;
+}
+
+.containerhead {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(54, 76, 109);
+    border-radius: 10px;
+}
+
+.container3 {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(126, 164, 222);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.pic{
+    width: 100%;
+}
+.mypicture{
+    width: 100%;}
+
+h2 {
+    color: #f8fafc;
+}
+
+.section-content {
+    text-align: justify;
+    padding: 10px;
+}
+
+
+.skill-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.skill-list li {
+    background-color: black;
+    color: #fff;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+.project {
+    border: 1px solid #0c0c0c;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in.active {
+    opacity: 1;
+    transform: translateY(0);
+}
